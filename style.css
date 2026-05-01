@@ -2480,6 +2480,10 @@ fieldset legend {
     margin-top: var(--space-sm);
     display: block;
   }
+
+  #admissions-process ol li::before {
+    content: none;
+  }
 }
 
 /* 
