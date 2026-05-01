@@ -2407,7 +2407,9 @@ fieldset legend {
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: var(--space-sm);
   }
-
+  #admissions-process ol li::before {
+    content: none;
+  }
   .gallery-item img {
     height: 150px;
   }
